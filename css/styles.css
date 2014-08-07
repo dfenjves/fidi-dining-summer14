@@ -1,0 +1,29 @@
+/*IMPORTS*/
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow);
+
+/*GLOBAL STYLES*/
+*{
+	box-sizing:border-box;
+}
+
+body{
+	background: url(../images/handmadepaper.png);
+}
+
+.wrapper{
+	width:87%;
+	margin:0 auto;
+}
+
+/*HEADER STYLES*/
+.header{
+	width:100%;
+	text-align:center;
+	border-bottom: 2px solid black;
+	margin-top:1.5rem;
+	padding-bottom:.7rem;
+}
+	.header h1{
+		font-family: 'PT Sans Narrow', sans-serif;
+		font-size: 6rem
+	}
